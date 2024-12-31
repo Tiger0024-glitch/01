@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Get in touch with Your Travel Company for all your travel inquiries and bookings.">
+    <meta name="keywords" content="contact us, travel inquiries, travel bookings, Bengaluru travel">
+    <meta name="author" content="Your Travel Company">
+    <title>Contact Us - Your Travel Company</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+        <p>We're here to help! Get in touch for bookings, inquiries, and more.</p>
+    </header>
+
+    <main>
+        <section id="contact-form">
+            <h2>Contact Form</h2>
+            <form action="submit-contact-form.php" method="POST">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Your Travel Company</p>
+    </footer>
+</body>
+</html>

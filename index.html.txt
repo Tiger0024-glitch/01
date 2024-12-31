@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Reliable travel services including airport cab booking, tours, and more. Book your next trip with us for a hassle-free experience.">
+    <meta name="keywords" content="travel, tours, airport cab, Bengaluru, cab booking, tours and packages, airport pickup">
+    <meta name="author" content="Your Travel Company">
+    <title>Home - Your Travel Company</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta property="og:title" content="Reliable Travel Services - Your Travel Company">
+    <meta property="og:description" content="Book your airport cab, tours, and other services with Your Travel Company for a seamless journey.">
+    <meta property="og:image" content="https://YourTravelCompany.com/images/hero-image.jpg">
+    <meta property="og:url" content="https://YourTravelCompany.com">
+</head>
+<body>
+    <header>
+        <h1>Your Travel Company</h1>
+        <p>Your trusted partner for airport pickups, drop-offs, and amazing tours in Bengaluru.</p>
+    </header>
+
+    <main>
+        <section id="booking">
+            <h2>Book Your Trip Now</h2>
+            <form action="booking-form-handler.php" method="POST">
+                <label for="pickup-location">Pickup Location:</label>
+                <input type="text" id="pickup-location" name="pickup-location" required>
+                
+                <label for="drop-location">Drop Location:</label>
+                <input type="text" id="drop-location" name="drop-location" required>
+                
+                <label for="pickup-date">Pickup Date:</label>
+                <input type="datetime-local" id="pickup-date" name="pickup-date" required>
+                
+                <button type="submit">Book Now</button>
+            </form>
+        </section>
+
+        <section id="features">
+            <h2>Our Services</h2>
+            <ul>
+                <li>Airport Cab Booking</li>
+                <li>Tour Packages</li>
+                <li>Customized Travel Packages</li>
+                <li>Corporate Transport Services</li>
+                <li>Private Chauffeur Services</li>
+            </ul>
+        </section>
+
+        <section id="testimonials">
+            <h2>What Our Customers Say</h2>
+            <blockquote>
+                "The airport cab service was exceptional! I was able to book my ride easily and the driver was punctual."
+                <footer>- John Doe, Bengaluru</footer>
+            </blockquote>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Have any questions? <a href="contact.html">Get in touch with us</a>.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Your Travel Company</p>
+    </footer>
+</body>
+</html>

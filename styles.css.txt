@@ -1,0 +1,8 @@
+/my-website
+    /images        (folder to store images like logos, background images, etc.)
+    index.html     (Home Page)
+    about-us.html  (About Us Page)
+    services.html  (Services Page)
+    customer-reports.html (Customer Reports Page)
+    contact.html   (Contact Page)
+    styles.css     (CSS Stylesheet)

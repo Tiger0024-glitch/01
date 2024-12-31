@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore the range of travel services provided by Your Travel Company including airport transfers, tours, and more.">
+    <meta name="keywords" content="airport transfers, cab booking, tours, chauffeur, Bengaluru travel">
+    <meta name="author" content="Your Travel Company">
+    <title>Our Services - Your Travel Company</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Your Travel Company - Services</h1>
+    </header>
+
+    <main>
+        <section id="services-list">
+            <h2>Our Services</h2>
+            <ul>
+                <li><strong>Airport Pickup & Drop-off</strong> - Hassle-free, punctual service for all your airport transfers.</li>
+                <li><strong>Tour Packages</strong> - Explore Bengaluru, South India, and beyond with our customized tours.</li>
+                <li><strong>Private Chauffeur</strong> - Hire a private driver for your personal needs.</li>
+                <li><strong>Corporate Travel</strong> - Reliable transport for businesses and corporate events.</li>
+                <li><strong>Luxury Travel</strong> - Enjoy premium services with high-end vehicles.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Your Travel Company</p>
+    </footer>
+</body>
+</html>

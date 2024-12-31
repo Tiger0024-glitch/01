@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn more about Your Travel Company and our mission to provide reliable travel services to Bengaluru.">
+    <meta name="keywords" content="About us, travel company, Bengaluru travel, airport cab, tours, services">
+    <meta name="author" content="Your Travel Company">
+    <title>About Us - Your Travel Company</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Your Travel Company</h1>
+        <p>Our mission is to provide seamless travel experiences in Bengaluru.</p>
+    </header>
+
+    <main>
+        <section id="company-info">
+            <h2>About Us</h2>
+            <p>We are a trusted travel service provider in Bengaluru, specializing in airport pickups, drop-offs, and customized tour packages.</p>
+            <h3>Our Vision</h3>
+            <p>To be the most reliable and customer-friendly travel service provider in Bengaluru, offering a wide range of services that ensure hassle-free journeys.</p>
+            <h3>Our Mission</h3>
+            <p>Our mission is to provide timely, professional, and affordable travel services with a focus on customer satisfaction and safety.</p>
+        </section>
+
+        <section id="team">
+            <h2>Meet Our Team</h2>
+            <ul>
+                <li>John Smith - CEO</li>
+                <li>Jane Doe - Operations Manager</li>
+                <li>Michael Lee - Customer Service Manager</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Your Travel Company</p>
+    </footer>
+</body>
+</html>
